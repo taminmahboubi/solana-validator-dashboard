@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Solana Validator Dashboard</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/@solana/web3.js@latest/lib/index.iife.min.js"></script>
+    </head>
+    <body>
+        <div class=""container">
+            <header>
+                <h1>Solana Validator Dashboard</h1>
+                <p>Live stats for a validator operated by [Tam]</p>
+            </header>
+            <main>
+                <div class="validator-info">
+                    <h2>Validator: <span id="validator-address">Loading...</span></h2>
+                    <div class="stats">
+                        <div class="stat-card">
+                            <h3>Active Stake</h3>
+                            <p id="active-stake">-</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>Commission</h3>
+                            <p id="commission">-</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>Uptime (last Epoch)</h3>
+                            <p id="uptime">-</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>Current Epoch</h3>
+                            <p id="current-epoch">-</p>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <p>Data fetched from Solana MAinnet via public RPC</p>
+            </footer>
+        </div>
+        <script src=""script.js"></script>
+    </body>
+</html>
