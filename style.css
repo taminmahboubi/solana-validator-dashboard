@@ -1,0 +1,50 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #0f0f23;
+    color: #00ff9d;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width:  1200px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.validator-info {
+    background: #1a1a2e;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 255, 157, 0.1);
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.stat-card {
+    background: #16213e;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 5px solid #00ff9d;
+}
+
+.stat-card h3 {
+    margin-top: 0;
+    color: #7ee6ff;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #888;
+    font-size: 0.9em;
+}
